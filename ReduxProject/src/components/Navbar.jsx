@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <div>
       <div className="flex justify-between items-center p-5 bg-blue-900  ">
-        <h2 className="font-semibold text-2xl">Media Search</h2>
+          <h2 className="font-semibold text-2xl">Media Search</h2>
         <div className="flex gap-4 mt-2">
           <Link
             to="/"

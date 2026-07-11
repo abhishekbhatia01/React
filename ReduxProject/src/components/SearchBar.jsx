@@ -15,9 +15,13 @@ function SearchBar() {
   
   return (
     <div>
-      <form action="" className="flex items-center justify-center p-10" onSubmit={handleSubmit}>
+      <form
+        action=""
+        className="flex items-center justify-center p-10"
+        onSubmit={handleSubmit}
+      >
         <input
-        required
+          required
           type="text"
           value={text}
           onChange={(e) => setText(e.target.value)}
