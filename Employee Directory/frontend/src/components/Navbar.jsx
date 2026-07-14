@@ -8,7 +8,7 @@ const Navbar = () => {
         <h2 className="font-semibold text-2xl text-white">StaffSync</h2>
         <div className="flex gap-4 mt-2">
           <Link
-            to="/"
+            to="/empform"
             className="text-sm bg-sky-400 text-slate-900 font-medium px-4 py-2 rounded-full hover:bg-sky-500 transition-shadow duration-150 hover:shadow-md"
           >
             Add Employee
